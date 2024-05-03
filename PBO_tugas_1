@@ -1,0 +1,19 @@
+class Sepeda {
+    String warna = "Biru";
+    String merk = "Olimpus";
+
+    void lari() {
+        System.out.println(" Sepeda " + merk + " Biru "+ warna + " lari kenceng ");
+    }
+
+    void berhenti() {
+        System.out.println(" Sepeda " + merk + " Biru " + warna + " berhenti mundur ");
+    }
+
+    public static void main(String[] args) {
+        Sepeda sepedaSaya = new Sepeda();
+
+        sepedaSaya.lari();
+        sepedaSaya.berhenti();
+    }
+}
