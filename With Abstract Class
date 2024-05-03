@@ -1,0 +1,24 @@
+abstract class Sepeda {
+    abstract void merek();
+
+    public void lari() {
+        System.out.println("larinya sangat kencang.");
+    }
+}
+
+class ontel extends Sepeda {
+
+       public void merek() {
+        System.out.println("Nabrak tiang");
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+
+        ontel d1 = new ontel();
+
+        d1.merek();
+        d1.lari();
+    }
+}
